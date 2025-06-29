@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu mejor opción</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: url('https://images.unsplash.com/photo-1617553801974-56b6f896c3c7?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed; background-size: cover; margin:0; padding:0; }
+    header, footer { background: rgba(0, 0, 0, 0.8); color:#fff; text-align:center; padding:15px; }
+    .section { padding:20px; background-color: rgba(255, 255, 255, 0.9); border-radius: 10px; margin: 20px; }
+    .grid { display: flex; flex-direction: column; gap: 20px; padding-bottom: 10px; }
+    .card { background:#fff; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.1); padding:15px; }
+    .card img { width:100%; border-radius:8px; }
+    .card h3 { margin-top:0; color:#0033a0; }
+    .price { color:green; font-weight:bold; margin:10px 0; }
+    .social-icons a img { width:24px; }
+      .card:hover { transform: scale(1.02); transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+    h1, h2 { color: #ff6600; text-shadow: 1px 1px 2px #000; }
+    .card h3 { color: #0077cc; }
+    .price { background-color: #e0ffe0; padding: 5px 10px; border-radius: 5px; display: inline-block; }
+</style>
+</head>
+<body>
+  <header>
+  <h1>🚗 ¡Tu mejor opción en vehículos! 🚗</h1>
+  <p style="font-size: 1.2em; color: #fff; margin-top: 10px;">Descubre, compara y elige el auto perfecto para ti. 🏁</p>
+</header>
+
+  
+    <div class="grid">
+      <div class="card">
+        <h3>BMW Serie 1</h3>
+        <img src="/mnt/data/150f1062-6867-4eff-be1c-ae71cecd0a80.png" alt="BMW Serie 1">
+        <p>Motor: 1.5 L TwinPower Turbo / 140–170 HP<br>Transmisión: Automática DCT 7 vel.<br>0‑100 km/h ≈ 8 s</p>
+        <p class="price">Desde COP $160.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW Serie 3</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2022/05/2023-bmw-3-series-facelift-01.jpg" alt="BMW Serie 3">
+        <p>Motor: 2.0 L TwinPower Turbo / 255 HP<br>Transmisión: Automática 8 vel.<br>0‑100 km/h: 5.6 s</p>
+        <p class="price">Desde COP $210.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW X5</h3>
+        <p>Motor: 3.0 L TwinPower Turbo híbrido / 389 HP<br>Transmisión: Automática Steptronic<br>0‑100 km/h: 5.3 s</p>
+        <p class="price">Desde COP $360.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW iX</h3>
+        <img src="https://www.bmwusa.com/content/dam/bmwusa/ix/2024/overview/BMW-MY24-iX-Overview-01-Desktop.jpg" alt="BMW iX">
+        <p>Motor: Eléctrico / 516 HP<br>Autonomía: hasta 630 km<br>0‑100 km/h: 4.6 s</p>
+        <p class="price">Desde COP $480.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW X1</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2022/06/2023-bmw-x1-u11-exterior-1.jpg" alt="BMW X1">
+        <p>Motor: 2.0 L TwinPower Turbo / 241 HP<br>Transmisión: Automática 7 vel.<br>0‑100 km/h: 6.2 s</p>
+        <p class="price">Desde COP $180.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW Serie 4 Coupé</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2020/06/2021-bmw-4-series-coupe-g22-16.jpg" alt="BMW Serie 4">
+        <p>Motor: 2.0 L TwinPower Turbo / 255 HP<br>Transmisión: Automática 8 vel.<br>0‑100 km/h: 5.5 s</p>
+        <p class="price">Desde COP $230.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW Z4</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2022/09/2023-bmw-z4-m40i-thundernight-metallic-04.jpg" alt="BMW Z4">
+        <p>Motor: 2.0 L o 3.0 L TwinPower Turbo / 255–382 HP<br>Convertible deportivo<br>0‑100 km/h: 4.5 s</p>
+        <p class="price">Desde COP $290.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW X3</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2021/06/2022-bmw-x3-lci-01.jpg" alt="BMW X3">
+        <p>Motor: 2.0 L o 3.0 L TwinPower Turbo / 248–382 HP<br>0‑100 km/h: desde 4.4 s</p>
+        <p class="price">Desde COP $240.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW i4</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2021/06/2022-bmw-i4-m50-02.jpg" alt="BMW i4">
+        <p>Motor: Eléctrico dual / 536 HP<br>Autonomía: hasta 590 km<br>0‑100 km/h: 3.9 s</p>
+        <p class="price">Desde COP $330.000.000</p>
+      </div>
+      <div class="card">
+        <h3>BMW X7</h3>
+        <img src="https://cdn.bmwblog.com/wp-content/uploads/2022/04/2023-bmw-x7-lci-01.jpg" alt="BMW X7">
+        <p>Motor: 3.0 L o 4.4 L TwinPower Turbo / 375–523 HP<br>0‑100 km/h: 5.8 s</p>
+        <p class="price">Desde COP $530.000.000</p>
+      </div>
+    </div>
+    
+    </div>
+  </section>
+  <section class="section">
+    <h2>Toyota</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Toyota Fortuner</h3>
+        <img src="https://www.toyota.com.co/content/dam/TOY/Co/vehicles/fortuner/2023/gallery/fortuner-2023-exterior.jpg" alt="Toyota Fortuner">
+        <p>Motor: 2.7L o 4.0L gasolina / 164–235 HP<br>Transmisión automática o manual<br>0–100 km/h: 9.0 s</p>
+        <p class="price">Desde COP $210.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Toyota Prado</h3>
+        <img src="https://www.toyota.com.co/content/dam/TOY/Co/vehicles/prado/2023/gallery/prado-2023.jpg" alt="Toyota Prado">
+        <p>Motor: 2.8 L diésel / 201 HP<br>Tracción 4x4<br>0–100 km/h: 10.9 s</p>
+        <p class="price">Desde COP $280.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Toyota Corolla Cross</h3>
+        <img src="https://www.toyota.com.co/content/dam/TOY/Co/vehicles/corolla-cross/2023/gallery/corolla-cross-2023.jpg" alt="Toyota Corolla Cross">
+        <p>SUV híbrida/gasolina 1.8 L, ≈121 HP<br>Transmisión CVT<br>0–100 km/h: 11.0 s</p>
+        <p class="price">Desde COP $135.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Toyota RAV4</h3>
+        <img src="https://www.toyota.com.co/content/dam/TOY/Co/vehicles/rav4/2023/gallery/rav4-2023-exterior.jpg" alt="Toyota RAV4">
+        <p>Motor: híbrido 2.5 L / 219 HP<br>Transmisión automática eCVT<br>0–100 km/h: 8.1 s</p>
+        <p class="price">Desde COP $170.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Toyota Land Cruiser</h3>
+        <img src="https://www.toyota.com.co/content/dam/TOY/Co/vehicles/land-cruiser/2023/gallery/landcruiser-gallery.jpg" alt="Toyota Land Cruiser">
+        <p>Motor: 3.5 L V6 Twin Turbo / 409 HP<br>4x4 avanzada, lujo premium<br>0–100 km/h: 6.7 s</p>
+        <p class="price">Desde COP $520.000.000</p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Chevrolet</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Chevrolet Tracker</h3>
+        <img src="https://www.chevrolet.com.co/content/dam/chevrolet/colombia/vehicles/tracker/mov/chevrolet-tracker-premier-1.jpg" alt="Chevrolet Tracker">
+        <p>SUV compacta turbo / 130 HP<br>0–100 km/h: 10.5 s</p>
+        <p class="price">Desde COP $110.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Chevrolet Captiva</h3>
+        <img src="https://www.chevrolet.com.co/content/dam/chevrolet/colombia/vehicles/captiva/mov/captiva-premier.jpg" alt="Chevrolet Captiva">
+        <p>SUV 7 puestos / Motor 1.5 Turbo<br>0–100 km/h: 10.2 s</p>
+        <p class="price">Desde COP $125.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Chevrolet Colorado</h3>
+        <img src="https://www.chevrolet.com.co/content/dam/chevrolet/colombia/vehicles/colorado/mov/colorado-ltz.jpg" alt="Chevrolet Colorado">
+        <p>Pickup 4x4 / Motor 2.8L Diésel<br>Potencia: 197 HP</p>
+        <p class="price">Desde COP $180.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Chevrolet Blazer RS</h3>
+        <img src="https://www.chevrolet.com.co/content/dam/chevrolet/colombia/vehicles/blazer/mov/blazer-rs-front.jpg" alt="Chevrolet Blazer">
+        <p>SUV deportiva / Motor 3.6L V6<br>Potencia: 308 HP</p>
+        <p class="price">Desde COP $200.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Chevrolet Tahoe</h3>
+        <img src="https://www.chevrolet.com.co/content/dam/chevrolet/colombia/vehicles/tahoe/mov/tahoe-premier.jpg" alt="Chevrolet Tahoe">
+        <p>SUV premium / Motor V8 5.3L<br>Potencia: 355 HP</p>
+        <p class="price">Desde COP $350.000.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Kia</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Kia Seltos</h3>
+        <img src="https://www.kia.com/content/dam/kia2/latin/colombia/es/vehicles/seltos/overview/seltos_MY23_overview.jpg" alt="Kia Seltos">
+        <p>SUV 1.6L / 121 HP<br>0–100 km/h: 11.2 s</p>
+        <p class="price">Desde COP $115.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Kia Sportage</h3>
+        <img src="https://www.kia.com/content/dam/kia2/latin/colombia/es/vehicles/sportage/overview/sportage_MY23_overview.jpg" alt="Kia Sportage">
+        <p>SUV 2.0L / 154 HP<br>Transmisión automática</p>
+        <p class="price">Desde COP $145.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Kia Sorento</h3>
+        <img src="https://www.kia.com/content/dam/kia2/latin/colombia/es/vehicles/sorento/overview/sorento_MY23_overview.jpg" alt="Kia Sorento">
+        <p>SUV 7 puestos / 2.5L Turbo<br>281 HP / AWD</p>
+        <p class="price">Desde COP $190.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Kia Niro Híbrido</h3>
+        <img src="https://www.kia.com/content/dam/kia2/latin/colombia/es/vehicles/niro/overview/niro_MY23_overview.jpg" alt="Kia Niro">
+        <p>SUV híbrido / 139 HP<br>Autonomía combinada</p>
+        <p class="price">Desde COP $165.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Kia Telluride</h3>
+        <img src="https://www.kia.com/content/dam/kia2/latin/colombia/es/vehicles/telluride/overview/telluride_MY23_overview.jpg" alt="Kia Telluride">
+        <p>SUV grande / Motor V6 3.8L<br>291 HP</p>
+        <p class="price">Desde COP $280.000.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Nissan</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Nissan X-Trail</h3>
+        <img src="https://www.nissan.com.co/content/dam/Nissan/latam/colombia/vehicles/x-trail/2023/gallery/x-trail_gallery_01.jpg" alt="Nissan X-Trail">
+        <p>SUV híbrido e-Power / 204 HP<br>0–100 km/h: 8.0 s</p>
+        <p class="price">Desde COP $190.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Nissan Kicks</h3>
+        <img src="https://www.nissan.com.co/content/dam/Nissan/latam/colombia/vehicles/kicks/2023/gallery/kicks_gallery_01.jpg" alt="Nissan Kicks">
+        <p>SUV urbano / Motor 1.6L<br>118 HP / CVT</p>
+        <p class="price">Desde COP $105.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Nissan Frontier</h3>
+        <img src="https://www.nissan.com.co/content/dam/Nissan/latam/colombia/vehicles/frontier/2023/gallery/frontier_gallery_01.jpg" alt="Nissan Frontier">
+        <p>Pickup 4x4 / Motor 2.5L Turbo<br>188 HP</p>
+        <p class="price">Desde COP $175.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Nissan Qashqai</h3>
+        <img src="https://www.nissan.com.co/content/dam/Nissan/latam/colombia/vehicles/qashqai/2023/gallery/qashqai_gallery_01.jpg" alt="Nissan Qashqai">
+        <p>Crossover compacto / Motor 1.3L Turbo<br>156 HP</p>
+        <p class="price">Desde COP $140.000.000</p>
+      </div>
+      <div class="card">
+        <h3>Nissan Pathfinder</h3>
+        <img src="https://www.nissan.com.co/content/dam/Nissan/latam/colombia/vehicles/pathfinder/2023/gallery/pathfinder_gallery_01.jpg" alt="Nissan Pathfinder">
+        <p>SUV 7 puestos / Motor 3.5L V6<br>284 HP</p>
+        <p class="price">Desde COP $240.000.000</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    <p>Creado por Sebastian Casalin</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/sebastian_cs_02?igsh=MXFmdnIzcjNqNzRpZA%3D%3D&utm_source=qr" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
